@@ -5,6 +5,7 @@ export function PhotoFrameContentsHeader() {
         padding: "30px",
         display: "flex",
         justifyContent: "space-between",
+        height: "30px",
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
@@ -25,6 +26,7 @@ export function PhotoFrameContentsHeader() {
         </span>
       </div>
       <ul
+        className="frame-nav-bar"
         style={{
           display: "flex",
           justifyContent: "flex-end",
@@ -32,11 +34,11 @@ export function PhotoFrameContentsHeader() {
           padding: "10px 20px",
           fontSize: "12px",
           fontWeight: "bold",
+          cursor: "pointer",
+          height: "18px",
         }}
       >
-        <li style={{ borderBottom: "4px solid black", paddingBottom: "5px" }}>
-          실감 미디어
-        </li>
+        <li>실감 미디어</li>
         <li>AR 콘텐츠</li>
         <li>공간3D 스캔</li>
         <li>유물 스캔</li>

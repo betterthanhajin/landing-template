@@ -51,3 +51,37 @@ ul {
   max-height: 80vh; */
   z-index: 0;
 }
+
+.frame-nav-bar li:hover {
+  border-bottom: 4px solid black;
+}
+
+.fcloud01 {
+  top: 100px;
+  z-index: 100;
+  animation: drift2 12s linear infinite;
+}
+
+.fcloud02 {
+  top: 180px;
+  z-index: 500;
+  animation: drift 12s linear infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(-110px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
+}
+
+@keyframes drift2 {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(-110px);
+  }
+}

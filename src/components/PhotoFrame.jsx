@@ -1,6 +1,9 @@
 import wideImg from "../image/wideImg.svg";
 import wideImg2 from "../image/wideImg2.svg";
 import wideImg3 from "../image/wideImg3.svg";
+import wideImg4 from "../image/wideImg4.svg";
+import wideImg5 from "../image/wideImg5.svg";
+import wideImg6 from "../image/wideImg6.svg";
 
 export function PhotoFrame() {
   return (
@@ -49,7 +52,12 @@ export function PhotoFrame() {
           >
             <img
               src={wideImg2}
-              style={{ width: "18vw", height: "18vh", filter: "grayscale" }}
+              style={{
+                width: "18vw",
+                height: "18vh",
+                filter: "grayscale",
+                filter: "grayscale(1)",
+              }}
             ></img>
           </div>
         </div>
@@ -74,7 +82,7 @@ export function PhotoFrame() {
           >
             <img
               src={wideImg3}
-              style={{ width: "18vw", height: "20vh", filter: "grayscale" }}
+              style={{ width: "18vw", height: "20vh", filter: "grayscale(1)" }}
             ></img>
           </div>
         </div>
@@ -95,7 +103,23 @@ export function PhotoFrame() {
             height: "20vh",
             border: "6px solid #261E18",
           }}
-        ></div>
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+              flex: "1 0 0",
+              alignSelf: "stretch",
+            }}
+          >
+            <img
+              src={wideImg4}
+              style={{ width: "14vw", height: "20vh", filter: "grayscale(1)" }}
+            ></img>
+          </div>
+        </div>
         <div
           style={{
             backgroundColor: "#ECE9E1",
@@ -103,7 +127,23 @@ export function PhotoFrame() {
             height: "20vh",
             border: "6px solid #261E18",
           }}
-        ></div>
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+              flex: "1 0 0",
+              alignSelf: "stretch",
+            }}
+          >
+            <img
+              src={wideImg5}
+              style={{ width: "25vw", height: "20vh", filter: "grayscale(1)" }}
+            ></img>
+          </div>
+        </div>
         <div
           style={{
             backgroundColor: "#ECE9E1",
@@ -111,7 +151,23 @@ export function PhotoFrame() {
             height: "20vh",
             border: "6px solid #261E18",
           }}
-        ></div>
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+              flex: "1 0 0",
+              alignSelf: "stretch",
+            }}
+          >
+            <img
+              src={wideImg6}
+              style={{ width: "18vw", height: "20vh", filter: "grayscale(1)" }}
+            ></img>
+          </div>
+        </div>
       </div>
     </div>
   );
