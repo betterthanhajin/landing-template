@@ -1,5 +1,3 @@
-import photoFrame from "../image/photoFrame.svg";
-import PhotoFrameContents from "./PhotoFrameContents";
 import PhotoFrameContentsHeader from "./PhotoFrameContentsHeader";
 import PhotoFrameContentsBody from "./PhotoFrameContentsBody";
 // import grayscale from "../image/grayscaleTest.svg";

@@ -68,6 +68,24 @@ ul {
   animation: drift 12s linear infinite;
 }
 
+.newsComponent {
+  cursor: pointer;
+  display: grid;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 18vw;
+  height: 35vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #f9f9fa;
+}
+.newsComponent:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 @keyframes drift {
   from {
     transform: translateX(-110px);

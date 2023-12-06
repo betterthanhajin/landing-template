@@ -4,88 +4,116 @@ import wideImg3 from "../image/wideImg3.svg";
 import wideImg4 from "../image/wideImg4.svg";
 import wideImg5 from "../image/wideImg5.svg";
 import wideImg6 from "../image/wideImg6.svg";
+import Atropos from "atropos/react";
 
 export function PhotoFrame() {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
-        <div
-          style={{
-            backgroundColor: "#FFFFFF",
-            width: "30vw",
-            height: "23vh",
-            border: "6px solid #261E18",
-            padding: "0.5rem",
-          }}
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
+              backgroundColor: "#FFFFFF",
+              width: "30vw",
+              height: "23vh",
+              border: "6px solid #261E18",
+              padding: "0.5rem",
             }}
           >
-            <img src={wideImg} style={{ width: "28vw", height: "23vh" }}></img>
-          </div>
-        </div>
-        <div
-          style={{
-            backgroundColor: "#ECE9E1",
-            width: "18vw",
-            height: "18vh",
-            border: "6px solid #261E18",
-            padding: "0.5rem",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
-            }}
-          >
-            <img
-              src={wideImg2}
+            <div
               style={{
-                width: "18vw",
-                height: "18vh",
-                filter: "grayscale",
-                filter: "grayscale(1)",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
               }}
-            ></img>
+            >
+              <img
+                src={wideImg}
+                style={{ width: "28vw", height: "23vh" }}
+                alt="wideImg"
+              ></img>
+            </div>
           </div>
-        </div>
-        <div
-          style={{
-            backgroundColor: "#ECE9E1",
-            width: "18vw",
-            height: "20vh",
-            border: "6px solid #261E18",
-            padding: "0.5rem",
-          }}
+        </Atropos>
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
+              backgroundColor: "#ECE9E1",
+              width: "18vw",
+              height: "18vh",
+              border: "6px solid #261E18",
+              padding: "0.5rem",
             }}
           >
-            <img
-              src={wideImg3}
-              style={{ width: "18vw", height: "20vh", filter: "grayscale(1)" }}
-            ></img>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
+              }}
+            >
+              <img
+                src={wideImg2}
+                style={{
+                  width: "18vw",
+                  height: "18vh",
+                  filter: "grayscale(1)",
+                }}
+                alt="wideImg"
+              ></img>
+            </div>
           </div>
-        </div>
+        </Atropos>
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
+        >
+          <div
+            style={{
+              backgroundColor: "#ECE9E1",
+              width: "18vw",
+              height: "20vh",
+              border: "6px solid #261E18",
+              padding: "0.5rem",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
+              }}
+            >
+              <img
+                src={wideImg3}
+                style={{
+                  width: "18vw",
+                  height: "20vh",
+                  filter: "grayscale(1)",
+                }}
+                alt="wideImg"
+              ></img>
+            </div>
+          </div>
+        </Atropos>
       </div>
       <div
         style={{
@@ -96,78 +124,111 @@ export function PhotoFrame() {
           marginTop: "18px",
         }}
       >
-        <div
-          style={{
-            backgroundColor: "#ECE9E1",
-            width: "14vw",
-            height: "20vh",
-            border: "6px solid #261E18",
-          }}
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
+              backgroundColor: "#ECE9E1",
+              width: "14vw",
+              height: "20vh",
+              border: "6px solid #261E18",
             }}
           >
-            <img
-              src={wideImg4}
-              style={{ width: "14vw", height: "20vh", filter: "grayscale(1)" }}
-            ></img>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
+              }}
+            >
+              <img
+                src={wideImg4}
+                style={{
+                  width: "14vw",
+                  height: "20vh",
+                  filter: "grayscale(1)",
+                }}
+                alt="wideImg"
+              ></img>
+            </div>
           </div>
-        </div>
-        <div
-          style={{
-            backgroundColor: "#ECE9E1",
-            width: "25vw",
-            height: "20vh",
-            border: "6px solid #261E18",
-          }}
+        </Atropos>
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
+              backgroundColor: "#ECE9E1",
+              width: "25vw",
+              height: "20vh",
+              border: "6px solid #261E18",
             }}
           >
-            <img
-              src={wideImg5}
-              style={{ width: "25vw", height: "20vh", filter: "grayscale(1)" }}
-            ></img>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
+              }}
+            >
+              <img
+                src={wideImg5}
+                style={{
+                  width: "25vw",
+                  height: "20vh",
+                  filter: "grayscale(1)",
+                }}
+                alt="wideImg"
+              ></img>
+            </div>
           </div>
-        </div>
-        <div
-          style={{
-            backgroundColor: "#ECE9E1",
-            width: "18vw",
-            height: "20vh",
-            border: "6px solid #261E18",
-          }}
+        </Atropos>
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
+              backgroundColor: "#ECE9E1",
+              width: "18vw",
+              height: "20vh",
+              border: "6px solid #261E18",
             }}
           >
-            <img
-              src={wideImg6}
-              style={{ width: "18vw", height: "20vh", filter: "grayscale(1)" }}
-            ></img>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                flex: "1 0 0",
+                alignSelf: "stretch",
+              }}
+            >
+              <img
+                src={wideImg6}
+                style={{
+                  width: "18vw",
+                  height: "20vh",
+                  filter: "grayscale(1)",
+                }}
+                alt="wideImg"
+              ></img>
+            </div>
           </div>
-        </div>
+        </Atropos>
       </div>
     </div>
   );

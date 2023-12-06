@@ -9,7 +9,6 @@ export function NewsContainer() {
         top: 0,
         zIndex: "-1",
         padding: "10rem 0rem",
-        background: "rgb(160,207,245)",
         background:
           "radial-gradient(circle, rgba(160,207,245,1) 0%, rgba(79,66,227,1) 100%)",
         filter: "brightness(1.5)",

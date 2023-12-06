@@ -31,19 +31,25 @@ export function Header() {
         }}
       >
         <li>
-          SPECIALITY<img src={Arrow} width={7}></img>
+          MAIN<img src={Arrow} width={7} alt="arrow"></img>
         </li>
         <li>
-          BUSINESS<img src={Arrow} width={7}></img>
+          SPECIALITY<img src={Arrow} width={7} alt="arrow"></img>
         </li>
         <li>
-          PROJECTS<img src={Arrow} width={7}></img>
+          BUSINESS<img src={Arrow} width={7} alt="arrow"></img>
         </li>
         <li>
-          NEWS<img src={Arrow} width={7}></img>
+          PROJECTS<img src={Arrow} width={7} alt="arrow"></img>
         </li>
         <li>
-          OUR CLIENTS<img src={Arrow} width={7}></img>
+          CERTIFICATION<img src={Arrow} width={7} alt="arrow"></img>
+        </li>
+        <li>
+          NEWS<img src={Arrow} width={7} alt="arrow"></img>
+        </li>
+        <li>
+          OUR CLIENTS<img src={Arrow} width={7} alt="arrow"></img>
         </li>
       </ul>
     </header>

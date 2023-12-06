@@ -1,11 +1,15 @@
 import VideoTitle from "./VideoTitle";
+import { React } from "react";
 
 export function VideoContainer() {
   return (
     <section style={{ position: "relative", top: 0, zIndex: "-1" }}>
       <video
-        autoPlay={true}
-        loop={true}
+        controls
+        autoPlay
+        loop
+        muted
+        playsInline
         style={{ width: "100%", height: "100%" }}
       >
         <source
