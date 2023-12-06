@@ -12,7 +12,7 @@ export function PhotoFrame() {
       <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
@@ -44,7 +44,7 @@ export function PhotoFrame() {
         </Atropos>
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
@@ -80,7 +80,7 @@ export function PhotoFrame() {
         </Atropos>
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
@@ -126,7 +126,7 @@ export function PhotoFrame() {
       >
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
@@ -161,7 +161,7 @@ export function PhotoFrame() {
         </Atropos>
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div
@@ -196,7 +196,7 @@ export function PhotoFrame() {
         </Atropos>
         <Atropos
           activeOffset={40}
-          shadowScale={1.05}
+          shadowScale={0.8}
           onTouchStart={(e) => (e.target.style.zIndex = 1)}
         >
           <div

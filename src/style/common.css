@@ -68,6 +68,19 @@ ul {
   animation: drift 12s linear infinite;
 }
 
+.mediaContainer {
+  cursor: pointer;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mediaContainer:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .newsComponent {
   cursor: pointer;
   display: grid;
