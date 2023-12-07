@@ -1,6 +1,15 @@
 export function MediaTitle() {
   return (
-    <div style={{ color: "white", textAlign: "left", fontWeight: "bold" }}>
+    <div
+      style={{
+        color: "#4b4b4b",
+        textAlign: "left",
+        fontWeight: "bold",
+        position: "absolute",
+        top: 0,
+        padding: "2rem",
+      }}
+    >
       <p style={{ fontSize: "24px", fontWeight: "lighter" }}>
         관객이 동화될 수 있는 몰입감을 선사
       </p>
