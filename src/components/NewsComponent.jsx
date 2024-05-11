@@ -1,4 +1,4 @@
-import newsImg from "../image/newsImg.svg";
+import newsImg from "../image/wideImg5.png";
 
 export function NewsComponent() {
   return (

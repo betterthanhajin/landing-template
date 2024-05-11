@@ -1,13 +1,13 @@
-import Client01 from "../image/client_01.svg";
-import Client02 from "../image/client_02.svg";
-import Client03 from "../image/client_03.png";
-import Client04 from "../image/client_04.png";
-import Client05 from "../image/client_05.png";
-import Client06 from "../image/client_06.png";
-import Client07 from "../image/client_07.png";
-import Client08 from "../image/client_08.png";
-import Client09 from "../image/client_09.jpeg";
-import Client10 from "../image/client_10.png";
+import Client01 from "../image/album01.png";
+import Client02 from "../image/album02.png";
+import Client03 from "../image/album03.png";
+import Client04 from "../image/album01.png";
+import Client05 from "../image/album02.png";
+import Client06 from "../image/album03.png";
+import Client07 from "../image/album01.png";
+import Client08 from "../image/album02.png";
+import Client09 from "../image/album03.png";
+import Client10 from "../image/album01.png";
 
 export function Clients() {
   return (

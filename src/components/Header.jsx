@@ -1,4 +1,4 @@
-import Logo from "../image/zipshowLogo.svg";
+import Logo from "../image/NEWJEANS.svg";
 import Arrow from "../image/arrow.svg";
 
 export function Header() {

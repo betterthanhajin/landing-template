@@ -1,9 +1,9 @@
-import wideImg from "../image/wideImg.svg";
-import wideImg2 from "../image/wideImg2.svg";
-import wideImg3 from "../image/wideImg3.svg";
-import wideImg4 from "../image/wideImg4.svg";
-import wideImg5 from "../image/wideImg5.svg";
-import wideImg6 from "../image/wideImg6.svg";
+import wideImg from "../image/wideImg.png";
+import wideImg2 from "../image/wideImg2.png";
+import wideImg3 from "../image/wideImg3.png";
+import wideImg4 from "../image/wideImg4.png";
+import wideImg5 from "../image/wideImg5.png";
+import wideImg6 from "../image/wideImg5.png";
 import Atropos from "atropos/react";
 
 export function PhotoFrame() {

@@ -9,12 +9,12 @@ export function NewsTitle() {
       }}
     >
       <h2 style={{ fontSize: "50px" }}>
-        집쇼코리아
+        뉴진스
         <br />
         뉴스
       </h2>
       <p style={{ fontSize: "18px", fontWeight: "lighter" }}>
-        집쇼코리아의 새로운 소식을
+        뉴진스의 새로운 소식을
         <br />
         전해드립니다
       </p>

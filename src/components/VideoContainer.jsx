@@ -1,5 +1,6 @@
 import VideoTitle from "./VideoTitle";
 import { React } from "react";
+import newJeans from "../vedio/editVersion.mp4";
 
 export function VideoContainer() {
   return (
@@ -12,10 +13,7 @@ export function VideoContainer() {
         playsInline
         style={{ width: "100%", height: "100%" }}
       >
-        <source
-          src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
-          type="video/mp4"
-        ></source>
+        <source src={newJeans} type="video/mp4"></source>
       </video>
       <VideoTitle />
     </section>
