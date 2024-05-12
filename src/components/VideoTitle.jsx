@@ -1,6 +1,16 @@
 import verticalArrow from "../image/verticalArrow.svg";
 
 export function VideoTitle() {
+  //useEffect(() => {
+  const scrollTop = () => {
+    let next = 1;
+    let section = document.getElementsByTagName("section");
+    window.scrollTo({
+      top: section[next].offsetTop,
+      behavior: "smooth",
+    });
+  };
+  //}, []);
   return (
     <div
       style={{
@@ -21,7 +31,7 @@ export function VideoTitle() {
       >
         뉴진스는 고객사의 니즈에 맞추어 <br /> 특별한 경험을 선사합니다
       </h2>
-      <div className="arrow" style={{ cursor: "pointer" }}>
+      <div className="arrow" style={{ cursor: "pointer" }} onClick={scrollTop}>
         <img src={verticalArrow} width={40} height={40} alt="arrow"></img>
       </div>
     </div>

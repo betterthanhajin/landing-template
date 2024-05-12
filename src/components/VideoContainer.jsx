@@ -4,7 +4,7 @@ import newJeans from "../vedio/editVersion.mp4";
 
 export function VideoContainer() {
   return (
-    <section style={{ position: "relative", top: 0, zIndex: "-1" }}>
+    <section style={{ position: "relative", top: 0 }}>
       <video
         controls
         autoPlay

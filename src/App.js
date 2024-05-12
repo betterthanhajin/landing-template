@@ -42,13 +42,6 @@ function App() {
         };
       })(i);
     }
-    const arrow = document.querySelector(".arrow");
-    arrow.addEventListener("click", () => {
-      window.scrollTo({
-        top: section[1].offsetTop,
-        behavior: "smooth",
-      });
-    });
   }, []);
   return (
     <div className="App">
