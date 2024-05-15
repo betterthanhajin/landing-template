@@ -29,7 +29,7 @@ export function PhotoFrameContainer() {
       <div className="frameBox" style={{ transform: "scale(0.9)" }}></div>
       <div
         className="frameBox"
-        style={{ width: "calc(90vw - 180px)", marginLeft: "-180px" }}
+        style={{ width: "calc(90% - 180px)", marginLeft: "-180px" }}
       >
         <PhotoFrameContentsHeader />
         <PhotoFrameContentsBody />

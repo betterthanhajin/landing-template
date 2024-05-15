@@ -18,8 +18,6 @@ export function PhotoFrame() {
           <div
             style={{
               backgroundColor: "#FFFFFF",
-              width: "30vw",
-              height: "23vh",
               border: "6px solid #261E18",
               padding: "0.5rem",
             }}
@@ -36,7 +34,7 @@ export function PhotoFrame() {
             >
               <img
                 src={wideImg}
-                style={{ width: "28vw", height: "23vh" }}
+                style={{ width: "18vw", height: "18vh" }}
                 alt="wideImg"
               ></img>
             </div>
@@ -50,8 +48,6 @@ export function PhotoFrame() {
           <div
             style={{
               backgroundColor: "#ECE9E1",
-              width: "18vw",
-              height: "18vh",
               border: "6px solid #261E18",
               padding: "0.5rem",
             }}
@@ -86,8 +82,6 @@ export function PhotoFrame() {
           <div
             style={{
               backgroundColor: "#ECE9E1",
-              width: "18vw",
-              height: "20vh",
               border: "6px solid #261E18",
               padding: "0.5rem",
             }}
@@ -106,7 +100,7 @@ export function PhotoFrame() {
                 src={wideImg3}
                 style={{
                   width: "18vw",
-                  height: "20vh",
+                  height: "18vh",
                   filter: "grayscale(1)",
                 }}
                 alt="wideImg"
