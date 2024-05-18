@@ -65,6 +65,12 @@ ul {
   .videoTitle {
     font-size: 30px !important;
   }
+  /* .newsBox {
+    display: block !important;
+  } */
+  .spaceTitle {
+    display: none !important;
+  }
 }
 
 .frameBox {

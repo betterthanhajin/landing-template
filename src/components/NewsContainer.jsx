@@ -8,23 +8,25 @@ export function NewsContainer() {
         position: "relative",
         top: 0,
         zIndex: "-1",
-        padding: "10rem 0rem",
+        padding: "2rem",
         background:
           "radial-gradient(circle, rgba(160,207,245,1) 0%, rgba(79,66,227,1) 100%)",
         filter: "brightness(1.5)",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
-      <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
-        <NewsTitle />
-        <div className="newsBox">
+      <NewsTitle />
+      <div style={{}}>
+        <div className="newsBox" style={{ display: "flex", gap: "10px" }}>
+          <NewsComponent />
+          <NewsComponent />
           <NewsComponent />
           <NewsComponent />
         </div>
-        <div className="newsBox">
+        <div className="newsBox" style={{ display: "flex", gap: "10px" }}>
           <NewsComponent />
           <NewsComponent />
-        </div>
-        <div className="newsBox">
           <NewsComponent />
           <NewsComponent />
         </div>
