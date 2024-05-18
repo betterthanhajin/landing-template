@@ -12,14 +12,16 @@ export function Header() {
         top: 0,
         left: 0,
         right: 0,
+        width: "100%",
+        height: "30px",
         borderBottom: "1px solid white",
-        padding: "10px 0px",
+        padding: "10px",
         backdropFilter: "blur(25px)",
         zIndex: 50,
       }}
     >
-      <div>
-        <img src={Logo} alt="logo" width={150}></img>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <img src={Logo} alt="logo" width={100}></img>
       </div>
       <ul
         className="nav-bar"
@@ -30,26 +32,29 @@ export function Header() {
           fontWeight: "700",
         }}
       >
-        <li>
-          MAIN<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>MAIN</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
-        <li>
-          SPECIALITY<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>SPECIALITY</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
-        <li>
-          BUSINESS<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>BUSINESS</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
-        <li>
-          PROJECTS<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>PROJECTS</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
-        <li>
-          CERTIFICATION<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>NEWS</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
-        <li>
-          NEWS<img src={Arrow} width={7} alt="arrow"></img>
-        </li>
-        <li>
-          OUR CLIENTS<img src={Arrow} width={7} alt="arrow"></img>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span>CLIENTS</span>
+          <img src={Arrow} width={7} alt="arrow"></img>
         </li>
       </ul>
     </header>

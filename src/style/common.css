@@ -41,6 +41,18 @@ ul {
   cursor: pointer;
 }
 
+/* 모바일 세로 (해상도 ~ 730px)*/
+@media (max-width: 768px) {
+  //스타일 입력
+  .nav-bar {
+    display: none !important;
+  }
+  .nav-bar li {
+    color: pink;
+    display: none !important;
+  }
+}
+
 .frameBox {
   position: absolute;
   background: linear-gradient(180deg, #fff 0%, #ffffff 100%);
