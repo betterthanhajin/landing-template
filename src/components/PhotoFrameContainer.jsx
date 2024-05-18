@@ -4,8 +4,8 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import wideImg from "../image/wideImg.png";
 import wideImg2 from "../image/wideImg2.png";
-import wideImg3 from "../image/wideImg3.png";
-import wideImg4 from "../image/wideImg4.png";
+import wideImg3 from "../image/wideImg5.png";
+import wideImg4 from "../image/wideImg5.png";
 
 import "swiper/css";
 // import "swiper/css/scrollbar";

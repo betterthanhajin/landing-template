@@ -38,11 +38,11 @@ export function PhotoFrameContentsHeader() {
           height: "18px",
         }}
       >
-        <li>실감 미디어</li>
-        <li>AR 콘텐츠</li>
-        <li>공간3D 스캔</li>
-        <li>유물 스캔</li>
-        <li>XR영상 제작</li>
+        <li>뉴진스 미디어</li>
+        <li>뉴진스 콘텐츠</li>
+        <li>뉴진스</li>
+        <li>특별함</li>
+        <li>뉴진스 영상</li>
       </ul>
     </header>
   );
