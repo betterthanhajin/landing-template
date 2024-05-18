@@ -10,7 +10,7 @@ export function SpaceContainer() {
         zIndex: "-1",
         background:
           "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
-        padding: "10rem",
+        padding: "4rem",
       }}
     >
       <div>

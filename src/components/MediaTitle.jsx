@@ -16,7 +16,7 @@ export function MediaTitle() {
       <h2 style={{ fontSize: "50px" }}>
         특별한 경험을 주는
         <br />
-        실감미디어
+        뉴진스
       </h2>
     </div>
   );
