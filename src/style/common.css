@@ -138,27 +138,37 @@ ul {
   border-radius: 10px;
   margin-top: 20px;
   background: #f9f9fa;
+  padding: 1rem;
 }
 .newsComponent:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-@keyframes drift {
+@keyframes App-logo-spin {
   from {
-    transform: translateX(-110px);
+    transform: rotate(0deg);
   }
   to {
-    transform: translateX(1000px);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
 @keyframes drift2 {
   from {
-    transform: translateX(1000px);
+    transform: rotate(0deg);
   }
   to {
-    transform: translateX(-110px);
+    transform: rotate(360deg);
   }
 }
 

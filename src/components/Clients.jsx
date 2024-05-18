@@ -12,13 +12,14 @@ import Client10 from "../image/album01.png";
 export function Clients() {
   return (
     <div>
-      <div className="fcloud01">
+      <div>
         <img
           src={Client01}
+          className="fcloud01"
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
         ></img>
-        <img
+        {/* <img
           src={Client02}
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
@@ -52,15 +53,16 @@ export function Clients() {
           src={Client08}
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
-        ></img>
+        ></img> */}
       </div>
-      <div className="fcloud02">
+      <div>
         <img
+          className="fcloud02"
           src={Client05}
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
         ></img>
-        <img
+        {/* <img
           src={Client06}
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
@@ -94,7 +96,7 @@ export function Clients() {
           src={Client10}
           style={{ width: "20vw", height: "20vh" }}
           alt="clientImg"
-        ></img>
+        ></img> */}
       </div>
     </div>
   );
