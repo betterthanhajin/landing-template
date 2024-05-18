@@ -12,6 +12,7 @@ export function NewsContainer() {
         background:
           "radial-gradient(circle, rgba(160,207,245,1) 0%, rgba(79,66,227,1) 100%)",
         filter: "brightness(1.5)",
+        height: "100%",
       }}
       className="block"
     >

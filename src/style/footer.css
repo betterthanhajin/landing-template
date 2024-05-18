@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 40vh;
+  height: 20vh;
   background: var(--grayscale-b-90, #393a3c);
   font-size: 1.4rem;
   line-height: 1rem;
@@ -15,7 +15,7 @@ footer .logo {
 .wrap {
   display: flex;
   gap: 8rem;
-  padding: 2rem 5rem;
+  padding: 2rem;
 }
 
 .footer_info_wrap {

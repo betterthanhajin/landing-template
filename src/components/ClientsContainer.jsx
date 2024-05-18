@@ -8,7 +8,7 @@ export function ClientsContainer() {
         position: "relative",
         top: 0,
         zIndex: "-1",
-        padding: "10rem 0rem",
+        padding: "2rem",
         background: "#F1F4FC",
       }}
     >
