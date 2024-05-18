@@ -27,7 +27,9 @@ export function VideoTitle() {
         style={{
           fontSize: "40px",
           fontWeight: "900",
+          textWrap: "balance",
         }}
+        className="videoTitle"
       >
         뉴진스는 고객사의 니즈에 맞추어 <br /> 특별한 경험을 선사합니다
       </h2>

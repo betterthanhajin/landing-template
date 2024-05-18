@@ -42,6 +42,19 @@ ul {
 }
 
 /* 모바일 세로 (해상도 ~ 730px)*/
+@media (max-width: 970px) {
+  .frameBox {
+    background-color: pink !important;
+    display: none !important;
+  }
+  .swiper-container {
+    display: block !important;
+  }
+  .photoFrameContainer {
+    padding: 0 !important;
+  }
+}
+
 @media (max-width: 768px) {
   //스타일 입력
   .nav-bar {
@@ -50,6 +63,9 @@ ul {
   .nav-bar li {
     color: pink;
     display: none !important;
+  }
+  .videoTitle {
+    font-size: 30px !important;
   }
 }
 
