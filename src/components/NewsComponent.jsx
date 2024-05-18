@@ -2,7 +2,10 @@ import newsImg from "../image/wideImg5.png";
 
 export function NewsComponent() {
   return (
-    <article className="newsComponent">
+    <article
+      className="newsComponent"
+      style={{ width: "85%", padding: "0.3rem" }}
+    >
       <div>
         <img src={newsImg} style={{ width: "100%" }} alt="newsImg"></img>
       </div>
