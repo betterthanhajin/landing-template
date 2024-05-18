@@ -1,5 +1,4 @@
 import { MediaTitle } from "./MediaTitle";
-import MediaImage from "../image/media.svg";
 import Atropos from "atropos/react";
 
 export function MediaContainer() {
@@ -13,14 +12,14 @@ export function MediaContainer() {
       }}
     >
       <MediaTitle />
-      <iframe
+      {/* <iframe
         src="https://skybox.blockadelabs.com/e/24a9569951a03eabbb6444fe8d211d4d"
         width="100%"
         height="100%"
         allow="fullscreen"
         preload="auto"
         style={{ border: "none" }}
-      ></iframe>
+      ></iframe> */}
       {/* <div
         style={{
           background:

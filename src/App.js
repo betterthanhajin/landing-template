@@ -50,7 +50,6 @@ function App() {
         <VideoContainer />
         <PhotoFrameContainer />
         <SpaceContainer />
-        {/* <ObjectContainer /> */}
         <MediaContainer />
         <NewsContainer />
         <ClientsContainer />

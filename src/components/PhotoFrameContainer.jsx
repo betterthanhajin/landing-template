@@ -8,10 +8,11 @@ import wideImg3 from "../image/wideImg3.png";
 import wideImg4 from "../image/wideImg4.png";
 
 import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+// import "swiper/css/scrollbar";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/autoplay";
+
 export function PhotoFrameContainer() {
   return (
     <section
@@ -51,14 +52,11 @@ export function PhotoFrameContainer() {
         style={{ width: "100%", height: "100%", display: "none" }}
       >
         <Swiper
-          // install Swiper modules
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={50}
           slidesPerView={1}
-          // navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 1500, disableOnInteraction: false }}
-          // scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
