@@ -12,19 +12,21 @@ export function NewsContainer() {
         background:
           "radial-gradient(circle, rgba(160,207,245,1) 0%, rgba(79,66,227,1) 100%)",
         filter: "brightness(1.5)",
-        display: "flex",
-        justifyContent: "center",
       }}
+      className="block"
     >
       <NewsTitle />
       <div style={{}}>
-        <div className="newsBox" style={{ display: "flex", gap: "10px" }}>
+        <div className="newsBox block" style={{ display: "flex", gap: "10px" }}>
           <NewsComponent />
           <NewsComponent />
           <NewsComponent />
           <NewsComponent />
         </div>
-        <div className="newsBox" style={{ display: "flex", gap: "10px" }}>
+        <div
+          className="newsBox hidden"
+          style={{ display: "flex", gap: "10px" }}
+        >
           <NewsComponent />
           <NewsComponent />
           <NewsComponent />

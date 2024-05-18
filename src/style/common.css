@@ -71,6 +71,13 @@ ul {
   .spaceTitle {
     display: none !important;
   }
+  .hidden {
+    display: none !important;
+  }
+
+  .block {
+    display: block !important;
+  }
 }
 
 .frameBox {
@@ -98,6 +105,14 @@ ul {
   animation: drift 12s linear infinite;
 }
 
+.fcloud03 {
+  animation: drift3 8s linear infinite;
+}
+
+.fcloud04 {
+  animation: drift4 12s linear infinite;
+}
+
 .mediaContainer {
   cursor: pointer;
   -webkit-transform: scale(1);
@@ -118,8 +133,8 @@ ul {
   transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  width: 18vw;
-  height: 35vh;
+  /* width: 18vw;
+  height: 35vh; */
   border-radius: 10px;
   margin-top: 20px;
   background: #f9f9fa;
@@ -144,5 +159,23 @@ ul {
   }
   to {
     transform: translateX(-110px);
+  }
+}
+
+@keyframes drift3 {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(-110px);
+  }
+}
+
+@keyframes drift4 {
+  from {
+    transform: translateX(-110px);
+  }
+  to {
+    transform: translateX(1000px);
   }
 }
