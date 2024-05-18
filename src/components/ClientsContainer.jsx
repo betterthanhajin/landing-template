@@ -9,7 +9,8 @@ export function ClientsContainer() {
         top: 0,
         zIndex: "-1",
         padding: "2rem",
-        background: "#F1F4FC",
+        background:
+          "radial-gradient(circle, rgba(237,160,245,1) 0%, rgba(152,66,227,1) 100%)",
       }}
     >
       <ClientsTitle />
