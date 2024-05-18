@@ -22,13 +22,11 @@ export function NewsContainer() {
           <NewsComponent />
           <NewsComponent />
           <NewsComponent />
-          <NewsComponent />
         </div>
         <div
           className="newsBox hidden"
           style={{ display: "flex", gap: "10px" }}
         >
-          <NewsComponent />
           <NewsComponent />
           <NewsComponent />
           <NewsComponent />

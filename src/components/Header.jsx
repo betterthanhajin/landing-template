@@ -49,7 +49,7 @@ export function Header() {
           <img src={Arrow} width={7} alt="arrow"></img>
         </li>
         <li style={{ display: "flex", alignItems: "center" }}>
-          <span>CLIENTS</span>
+          <span>HISTORY</span>
           <img src={Arrow} width={7} alt="arrow"></img>
         </li>
       </ul>

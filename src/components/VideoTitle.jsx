@@ -28,12 +28,17 @@ export function VideoTitle() {
           fontSize: "40px",
           fontWeight: "900",
           textWrap: "balance",
+          textAlign: "center",
         }}
         className="videoTitle"
       >
         뉴진스는 고객사의 니즈에 맞추어 <br /> 특별한 경험을 선사합니다
       </h2>
-      <div className="arrow" style={{ cursor: "pointer" }} onClick={scrollTop}>
+      <div
+        className="arrow"
+        style={{ cursor: "pointer", textAlign: "center" }}
+        onClick={scrollTop}
+      >
         <img src={verticalArrow} width={40} height={40} alt="arrow"></img>
       </div>
     </div>
